@@ -1,4 +1,5 @@
-# jira2json
+# jira-get
+
 Get some stuff from jira, create json from it
 
 ## sample usage
