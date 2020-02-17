@@ -1,0 +1,25 @@
+{
+  "name": "jira2json",
+  "version": "1.0.0",
+  "description": "Auths to jira and gets some issues as json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "electron-log": "^2.2.17",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "jira-connector": "^2.9.0",
+    "oauth": "^0.9.15",
+    "opn": "^5.4.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "sys": "0.0.1",
+    "util": "^0.11.1",
+    "yargs": "^12.0.2"
+  }
+}

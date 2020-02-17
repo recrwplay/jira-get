@@ -1,0 +1,37 @@
+{
+    "product": {
+        "name": "PRODUCT NAME",
+        "version": "1.0.0"
+    },
+    "jira": {
+        "resourceName": "JIRA INSTANCE",
+        "project": "PROJECT",
+        "sprint": {
+            "field": "11111",
+            "value": "Sprint 1"
+        },
+        "filter": "project = PROJECT AND Sprint = 'Sprint 1' AND 'FIELD' = VALUE ORDER BY created DESC",
+        "fields": [
+            "summary",
+            "status",
+            "issuetype",
+            "customfield_12345",
+            "customfield_13579"
+        ],
+        "renderedFields": true
+    },
+    "output": {
+        "formatter": {
+            "name": "formatter",
+            "lib": "format.js"
+        },
+        "mapping": {
+            "issueText": "customfield_12345"
+        },
+        "headings": {
+            "page": "Version 1.0.0",
+            "features": "What's new",
+            "bugs": "Corrected issues"
+        }   
+    }    
+}
