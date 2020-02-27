@@ -1,6 +1,6 @@
 # jira-get
 
-Get some stuff from jira, create json from it
+Get some stuff from jira, create json from it. Optionally, turn that json into an output, eg html.
 
 ## sample usage
 
