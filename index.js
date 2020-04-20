@@ -221,7 +221,7 @@ app.get("/authed", function(req,res) {
     let accessToken = req.query.token;
     eLogger.info('---in /authed - GOT A TOKEN---\n')
 
-    // accessible-resources will get us the id of the JIRA instance (ie infogix.atlassian.net)
+    // accessible-resources will get us the id of the JIRA instance (ie mycompanyname.atlassian.net)
     let url = 'https://api.atlassian.com/oauth/token/accessible-resources';
 
     let options = {
